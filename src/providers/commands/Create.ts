@@ -11,7 +11,7 @@ export async function Create<T extends ra.Record>(
   const r = await rm.TryGetResource(resourceName);
   log("Create", { resourceName, resource: r, params });
   const hasOverridenDocId = params.data && params.data.id;
-  log("Create", { hasOverridenDocId });
+  log("Create test test", { hasOverridenDocId });
   if (hasOverridenDocId) {
     const overridenId = params.data.id;
     const exists = (await r.collection.doc(overridenId).get()).exists;
