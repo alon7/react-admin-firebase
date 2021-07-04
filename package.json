@@ -1,7 +1,7 @@
 {
   "name": "@gatetel/react-admin-firebase",
   "description": "A firebase data provider for the React Admin framework",
-  "version": "3.2.21",
+  "version": "3.2.22",
   "peerDependencies": {
     "firebase": "^7.9.x",
     "react": "^17.x",
